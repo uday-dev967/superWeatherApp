@@ -1,0 +1,6 @@
+@media screen and (max-width : 767px) {
+    .mobile-bg {
+      background-image: url("https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg");
+      background-size: cover;
+    }
+  }

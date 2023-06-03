@@ -1,0 +1,66 @@
+.header-main-container {
+    position: fixed;
+}
+.header-back-container{
+    background-color: #363636;
+    padding: 0px;
+}
+
+.app-icon {
+    width: 60px;
+    height: 60px;
+}
+
+.search-container {
+    padding: 5px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: white;
+    background-color: white;
+    margin-right: 20px;
+}
+
+
+
+.input {
+    border-style: none;
+    border-radius: 5px;
+    outline: none;
+}
+
+.search-button {
+    border-style: solid;
+    border-width: 0px 0px 0px 3px;
+    background-color: transparent;
+}
+
+
+
+@media screen and (min-width : 767px) {
+    .search-bar-container{
+        padding-right: 25%;
+    }
+    .input{
+        width: 400px;
+    }
+}
+
+@media screen and (max-width : 580px) {
+    .search-container{
+        padding: 2px;
+    }
+    .input {
+        width: 120px;
+    }
+    .app-icon {
+        width: 44px;
+        height: 44px;
+    }
+}
+
+.header-title{
+    font-size: 20px;
+    color : orange;
+    margin-left: 10px;
+    align-self: center;
+}

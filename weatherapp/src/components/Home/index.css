@@ -1,0 +1,102 @@
+.home-container {
+    background-image: url("https://cdn.pixabay.com/photo/2018/08/23/07/35/thunderstorm-3625405_1280.jpg");
+    color : white;
+    height: 100vh;
+    padding-top: 50px;
+    font-family: "Roboto";
+    background-size: cover;
+    overflow: auto;
+}
+
+@media screen and (min-width : 768px) {
+    .home-container{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+
+.section-heading {
+    font-size: 15px;
+    color: white;
+}
+
+.location-name {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin-left: 5px;
+    font-weight: 900;
+}
+
+.Weather-container{
+    border-radius: 5px;
+    border-color: white;
+    background-color: transparent;
+    
+    border-width: 2px;
+    margin : 5px;
+    padding : 5px;
+    border-style: solid;
+}
+
+.time {
+    font-size: 40px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.temp {
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.today{
+    padding-top : 0px;
+    margin-top : 0px;
+    font-size: 20px;
+}
+
+
+.amorpm {
+    font-size: 10px;
+}
+
+.icon-image {
+    width: 50px;
+    height: 50px;
+}
+
+.description {
+    font-size : 30px;
+    margin-left: 10px;
+}
+
+@media screen and (max-width : 768px) {
+    .time {
+        font-size: 25px;
+        
+    }
+    
+    .temp {
+        font-size: 20px;
+        
+    }
+    
+    .today{
+        
+        font-size: 15px;
+    }
+    
+    
+    .amorpm {
+        font-size: 10px;
+    }
+    .location-name {
+        font-size: 15px;
+        margin-left: 5px;
+        font-weight: 900;
+    }
+    .icon-image {
+        width: 35px;
+        height: 35px;
+    }
+}

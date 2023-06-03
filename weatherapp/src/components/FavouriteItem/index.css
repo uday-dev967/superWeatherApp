@@ -1,0 +1,10 @@
+.fav-list-item{
+    border: solid white 1px;
+    border-radius: 5px;
+}
+
+@media screen and (max-width : 768px) {
+    .server-busy {
+        font-size: 10px;
+    }
+}
