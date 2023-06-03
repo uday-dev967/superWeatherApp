@@ -1,0 +1,46 @@
+POST http://localhost:3001/users/
+Content-Type: application/json
+
+{    
+    "name": "rahul123",
+    "password": "rahul@456",
+    "email":"rahul123@gmail.com"
+}
+
+###
+
+POST http://localhost:3001/login/
+Content-Type: application/json
+
+{    
+    "email": "rahul123@gmail.com",
+    "password": "rahul@456"
+}
+
+###
+
+POST http://localhost:3001/add-location
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InJhaHVsMTIzQGdtYWlsLmNvbSIsImlhdCI6MTY4NDI0MDY2OH0.NvFSIVdUFX1nUsDGl8EdFaVNUf-HWE_cFkvRL4O6Xxc
+
+{    
+    "location" : "delhi,in"
+}
+
+###
+
+GET http://localhost:3001/my-location
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InJhaHVsMTIzQGdtYWlsLmNvbSIsImlhdCI6MTY4NDI0MDY2OH0.NvFSIVdUFX1nUsDGl8EdFaVNUf-HWE_cFkvRL4O6Xxc
+
+###
+
+DELETE http://localhost:3001/delete-location
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InJhaHVsMTIzQGdtYWlsLmNvbSIsImlhdCI6MTY4NDI0MDY2OH0.NvFSIVdUFX1nUsDGl8EdFaVNUf-HWE_cFkvRL4O6Xxc
+
+{    
+    "location" : "delhi,in"
+}
+
+###
